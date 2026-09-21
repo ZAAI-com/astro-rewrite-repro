@@ -1,0 +1,12 @@
+---
+// Yearly blog archive: /2025/, /2026/
+const posts = [
+	{ title: 'Hello world', year: '2025' },
+	{ title: 'Second post', year: '2026' },
+];
+export function getStaticPaths() {
+	return ['2025', '2026'].map((year) => ({ params: { year } }));
+}
+const { year } = Astro.params;
+---
+<html><body><h1>Archive {year}</h1><ul>{posts.filter((p) => p.year === year).map((p) => <li>{p.title}</li>)}</ul></body></html>
