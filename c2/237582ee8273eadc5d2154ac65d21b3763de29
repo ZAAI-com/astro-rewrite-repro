@@ -1,0 +1,33 @@
+.gitignore
+  s_93495531635db2::t_59d76417505f67 1-3
+README.md
+  s_93495531635db2::t_6c342e2f255c15 1-39
+astro.config.mjs
+  s_93495531635db2::t_ab00a3358e7a85 1-3
+package.json
+  s_93495531635db2::t_ef65a9707d45b4 1-7
+src/middleware.js
+  s_93495531635db2::t_6d09b1ae42b8e5 1-6
+src/pages/[...slug].astro
+  s_93495531635db2::t_2e5cfa9b346791 1-7
+src/pages/[year]/index.astro
+  s_93495531635db2::t_7d5ee65cb0b4da 1-12
+src/pages/index.astro
+  s_93495531635db2::t_ad3297d6dd4c0a 1
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "c2237582ee8273eadc5d2154ac65d21b3763de29",
+  "prompts": {},
+  "sessions": {
+    "s_93495531635db2": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "8a6aaaaf-af97-4ce3-8057-b934e1da5d37",
+        "model": "claude-fable-5-1"
+      },
+      "human_author": "Manuel <m@manuelgruber.com>"
+    }
+  }
+}
